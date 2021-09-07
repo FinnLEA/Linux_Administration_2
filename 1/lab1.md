@@ -9,9 +9,13 @@
 	- Systemd знает необходимые зависимости для каждого сервиса и может запускать сервисы без зависимостей параллельно.
 	- Может заранее создать сокет для сервиса, что позволит начать работу всей системы раньше.
 3. Каким образом проверить работает процесс в sysvinit и в systemd?
-	- Systemd: 
-	![linux console](systemctl status [unit])
-	- Sysvinit: 
+	---
+	Systemd: 
+	---
+	![linux console](systemctl status <unit>)
+	---
+	Sysvinit: 
+	---
 	![linux console](chkconfig service_name или service --status-all)
 4. Как добавить в автозагрузку init скрипт в sysvinit и в systemd?
 	---
