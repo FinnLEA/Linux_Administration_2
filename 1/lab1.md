@@ -40,5 +40,23 @@
 ---
 	
 1. Скрипт [clean](clean.py) очищает директорию /tmp
-2. 
+2. [daemon](script.sh)
+	```bash
+	update-rc.d daemon.sh start
+	```
+	```bash
+	service daemon status
+	```
+	![linux_console](img1.png)
+	```bash
+	service daemon start
+	```
+	![linux_console](img2.png)
+3. Создаем файл описания модуля /etc/systemd/system/daemon.service и запускаем
+	![linux_console](img3.png)
+	
+4. Создаем файл /etc/systemd/system/mytimer.timer
+	![linux_console](img4.png)
+	Создаем файл /etc/systemd/system/mytimer.service:
+	![linux_console](img5.png)
 	
