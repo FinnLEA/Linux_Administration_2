@@ -18,14 +18,14 @@
 	Sysvinit:
 	---
 	- Добавить скрипт в директорию /etc/init.d
-	![linux console](chkconfig srvice_name on)
+	- ![linux console](chkconfig srvice_name on)
 	---
 	Systemd:
 	---
 	- Добавить файл с описанием модуля в /etc/systemd/system/
-	![linux console](sysctemctl enable service)	
+	- ![linux console](sysctemctl enable service)	
 5. Как посмотреть логи в системе systemd по нужному нам процесс
-	![linux console](journalctl -u <юнит>)
+	- ![linux console](journalctl -u <юнит>)
 	
 ---
 
